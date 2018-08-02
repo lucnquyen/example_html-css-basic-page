@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image: linear-gradient(rgba(0,0,0,0.5),
+     rgba(0,0,0,0.5)), url(alena-city1k.jpg);  /*linear gradient : clear menu   */
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.main-nav {
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+}
+
+.main-nav li {
+    display: inline-block; /* tren mot dong*/
+}
+
+.main-nav li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 20px;     /* top and bottom: 5px padding */  /* left and right: 20px padding */
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+}
+
+.main-nav li.active a {
+    border: 1px solid white;
+}
+
+.main-nav li a:hover {
+    border: 1px solid white;  /*border around an element in one declaration */
+}
+
+.logo img {
+    width: 150px;
+    height: auto;
+    float: left; /*thanh phan duoc troi noi qua ben trai*/
+}
+
+body {
+    font-family: monospace;
+}
+
+.row {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.hero {
+    position: absolute;
+    width: 1200px;
+    margin-left: 0px;
+    margin-top: 35px;
+}
+
+h1 {
+    color: white;
+    text-transform: uppercase;
+    font-size: 70PX;
+    text-align: center;
+    margin-top: 275px;
+}
+
+.button {
+    margin-top: 30px;
+    margin-left: 440px;
+}
+
+.btn {
+    border: 1px solid white;
+    padding: 10px 30px;
+    color: white;
+    text-decoration: none;
+    margin-right: 5px;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+.btn-one {
+    background-color: darkorange;
+    font-family: "Robonto", sans-serif;
+}
+
+.btn-two:hover {  /*":hover" chọn các liên kết được hover (di chuyển chuột lên thành phần).*/
+    background-color: darkorange;
+    transition: all 0.5s ease-in; /*sau 0.5s sang mau*/
+}
